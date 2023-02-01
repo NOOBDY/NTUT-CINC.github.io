@@ -1,4 +1,4 @@
-import{S as C,i as x,s as D,k as c,q,a as _,l as o,m,r as h,h as n,c as S,n as P,b as E,D as u,B as v}from"../../../chunks/index-0e278cc3.js";function I(N){let e,i,s,d,p,a,f;return{c(){e=c("div"),i=c("div"),s=c("h1"),d=q("About"),p=_(),a=c("p"),f=q(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae arcu non lacus ornare
+import{S as N,i as x,s as D,k as c,q,a as _,l as o,m,r as h,h as n,c as S,n as P,b as E,C as u,B as v}from"../../../chunks/index-151fad4b.js";function I(C){let e,i,s,d,p,a,f;return{c(){e=c("div"),i=c("div"),s=c("h1"),d=q("About"),p=_(),a=c("p"),f=q(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae arcu non lacus ornare
             ultrices. Nunc neque nunc, molestie eu laoreet et, ultrices ac eros. Sed vel finibus
             turpis. Vivamus porta quis libero sit amet finibus. Cras a condimentum ligula. Duis
             interdum ante et elit placerat, in cursus nunc dignissim. Fusce neque mauris, venenatis
@@ -58,4 +58,4 @@ import{S as C,i as x,s as D,k as c,q,a as _,l as o,m,r as h,h as n,c as S,n as P
             condimentum. Duis faucibus ligula eu orci accumsan mattis. Cras auctor ipsum sed congue
             elementum. Nulla id ligula risus. Nulla non venenatis lorem, id pellentesque lectus. In
             ac sapien nulla. Mauris dignissim, nunc a blandit sollicitudin, magna orci dapibus
-            mauris, et accumsan ante nulla at lacus. Curabitur iaculis nulla eget luctus tincidunt.`),g.forEach(n),r.forEach(n),l.forEach(n),this.h()},h(){P(i,"class","prose prose-invert prose-cyan w-full"),P(e,"class","flex flex-col items-center px-5")},m(t,l){E(t,e,l),u(e,i),u(i,s),u(s,d),u(i,p),u(i,a),u(a,f)},p:v,i:v,o:v,d(t){t&&n(e)}}}class F extends C{constructor(e){super(),x(this,e,null,I,D,{})}}export{F as default};
+            mauris, et accumsan ante nulla at lacus. Curabitur iaculis nulla eget luctus tincidunt.`),g.forEach(n),r.forEach(n),l.forEach(n),this.h()},h(){P(i,"class","prose prose-invert prose-cyan w-full"),P(e,"class","flex flex-col items-center px-5")},m(t,l){E(t,e,l),u(e,i),u(i,s),u(s,d),u(i,p),u(i,a),u(a,f)},p:v,i:v,o:v,d(t){t&&n(e)}}}class F extends N{constructor(e){super(),x(this,e,null,I,D,{})}}export{F as default};
