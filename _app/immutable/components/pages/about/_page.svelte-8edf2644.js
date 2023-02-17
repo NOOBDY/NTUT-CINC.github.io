@@ -1,4 +1,4 @@
-import{S as D,i as S,s as E,a as q,k as d,q as h,N as A,h as a,c as P,l as p,m as f,r as N,n as C,b as x,C as n,B as b}from"../../../chunks/index-25bea4e6.js";function I(_){let u,e,s,r,o,t,c;return{c(){u=q(),e=d("div"),s=d("h1"),r=h("About"),o=q(),t=d("p"),c=h(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae arcu non lacus ornare
+import{S as D,i as S,s as E,a as q,k as d,q as h,N as A,h as a,c as P,l as p,m as f,r as N,n as C,b as x,D as n,B as b}from"../../../chunks/index-fff9d564.js";function I(_){let u,e,s,r,o,t,c;return{c(){u=q(),e=d("div"),s=d("h1"),r=h("About"),o=q(),t=d("p"),c=h(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae arcu non lacus ornare
         ultrices. Nunc neque nunc, molestie eu laoreet et, ultrices ac eros. Sed vel finibus turpis.
         Vivamus porta quis libero sit amet finibus. Cras a condimentum ligula. Duis interdum ante et
         elit placerat, in cursus nunc dignissim. Fusce neque mauris, venenatis et nunc id,
