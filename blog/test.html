@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="color-scheme" content="dark light" />
         <meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-a41d45f0.css" rel="stylesheet">
+		<link href="../_app/immutable/assets/_layout-c2db2b14.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/fa-95b16411.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/_page-b8e6c7d3.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-d1e48a43.js">
+		<link rel="modulepreload" href="../_app/immutable/start-c65c5a65.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index-fff9d564.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-52be1f76.js">
 		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-69889555.js">
@@ -19,11 +19,13 @@
 		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
 		<link rel="modulepreload" href="../_app/immutable/components/layout.svelte-12b2411f.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-16defa20.js">
+		<link rel="modulepreload" href="../_app/immutable/components/pages/blog/_slug_/_page.svelte-83f56e91.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/CategoryList-f7360e7a.js"><title>Svelte Prototype</title><!-- HEAD_svelte-1lc14l5_START --><!-- HEAD_svelte-1lc14l5_END -->
     </head>
 
-    <body class="h-full text-white selection:bg-emerald-400 selection:text-black">
+    <body
+        class="h-full text-white selection:bg-emerald-400 selection:text-black"
+    >
         <div class="contents">
 
 
@@ -289,13 +291,13 @@
 
 
 		<script type="module" data-sveltekit-hydrate="1o2iori">
-			import { start } from "../_app/immutable/start-d1e48a43.js";
+			import { start } from "../_app/immutable/start-c65c5a65.js";
 
 			start({
 				env: {},
 				paths: {"base":"","assets":""},
 				target: document.querySelector('[data-sveltekit-hydrate="1o2iori"]').parentNode,
-				version: "1677081894675",
+				version: "1677128938147",
 				hydrate: {
 					node_ids: [0, 2, 6],
 					data: [null,{type:"data",data:{summaries:[{slug:"chinese",title:"中文測試",categories:["chinese"],createdOn:new Date(1675177813000),searchTerms:"中文測試 chinese"},{slug:"contrib",title:"Contributing",categories:["english"],createdOn:new Date(1674064873000),searchTerms:"contributing english"},{slug:"cake",title:"This was a triumph",categories:["english"],createdOn:new Date(1672839792000),searchTerms:"this was a triumph english"},{slug:"safety",title:"Safety notice",categories:["english"],createdOn:new Date(1672839792000),searchTerms:"safety notice english"},{slug:"welcome",title:"Welcome to the Aperture Science computer-aided enrichment center",categories:["english"],createdOn:new Date(1672839792000),searchTerms:"welcome to the aperture science computer-aided enrichment center english"},{slug:"test",title:"Svelte Prototype",categories:["english","testing"],createdOn:new Date(1672830580000),searchTerms:"svelte prototype english testing"}]},uses:{}},{type:"data",data:{title:"Svelte Prototype",content:"# Svelte Prototype\n\n## subtitle\n\nFor help type `tldr \u003Ccommand\u003E`\n\n`pacman -Syu`\n\n[risky click of the day](https:\u002F\u002Fyoutu.be\u002FhcaPRXx3EzA)\n\n```cpp\n#include \u003Ciostream\u003E\n\nint main() {\n    std::cout \u003C\u003C \"Test\\n\";\n}\n```\n\n```c\n#include \u003Cstdio.h\u003E\n\nint main() {\n    int n = 69;\n    printf(\"%d\\n\", n);\n}\n```\n\n```rs=\n#![feature(yeet_expr)]\nfn main() {\n    something();\n}\n\nfn something() -\u003E Option\u003C()\u003E {\n    do yeet;\n}\n```\n\n```py\nx = [i * 2 - 1 for i in range(10)]\n\ndef func(n: int) -\u003E None:\n    print(n)\n```\n\n```\ncurl -s -X POST -H 'Content-Type: application\u002Fjson' -d '{\"name\":\"123\",\"rule_type\":\"En\"}' $addr\u002Fthreads | jq\n```\n\nSource Code\n\n```c=\n\u002F\u002F fib.c\n\nint fib(int n) {\n    int i, n1 = 1, n2 = 1, tmp = 0;\n\n    for (i = 2; i \u003C n; ++i) {\n        tmp = n1 + n2;\n        n1 = n2;\n        n2 = tmp;\n    }\n\n    return n2;\n}\n```\n\nCompile Command(Clang 15):\n\n```\nclang -S -fno-asynchronous-unwind-tables -fno-exceptions -fno-rtti -masm=intel -fverbose-asm fib.c -o fib.asm\n```\n\nAssembly Output:\n\n```x86asm=\n# fib.asm\n\n\t.text\n\t.intel_syntax noprefix\n\t.file\t\"fib.c\"\n\t.globl\tfib                             # -- Begin function fib\n\t.p2align\t4, 0x90\n\t.type\tfib,@function\nfib:                                    # @fib\n# %bb.0:\n\tpush\trbp\n\tmov\trbp, rsp\n\tmov\tdword ptr [rbp - 4], edi\n\tmov\tdword ptr [rbp - 12], 1\n\tmov\tdword ptr [rbp - 16], 1\n\tmov\tdword ptr [rbp - 20], 0\n\tmov\tdword ptr [rbp - 8], 2\n.LBB0_1:                                # =\u003EThis Inner Loop Header: Depth=1\n\tmov\teax, dword ptr [rbp - 8]\n\tcmp\teax, dword ptr [rbp - 4]\n\tjge\t.LBB0_4\n# %bb.2:                                #   in Loop: Header=BB0_1 Depth=1\n\tmov\teax, dword ptr [rbp - 12]\n\tadd\teax, dword ptr [rbp - 16]\n\tmov\tdword ptr [rbp - 20], eax\n\tmov\teax, dword ptr [rbp - 16]\n\tmov\tdword ptr [rbp - 12], eax\n\tmov\teax, dword ptr [rbp - 20]\n\tmov\tdword ptr [rbp - 16], eax\n# %bb.3:                                #   in Loop: Header=BB0_1 Depth=1\n\tmov\teax, dword ptr [rbp - 8]\n\tadd\teax, 1\n\tmov\tdword ptr [rbp - 8], eax\n\tjmp\t.LBB0_1\n.LBB0_4:\n\tmov\teax, dword ptr [rbp - 16]\n\tpop\trbp\n\tret\n.Lfunc_end0:\n\t.size\tfib, .Lfunc_end0-fib\n                                        # -- End function\n\t.ident\t\"clang version 15.0.7\"\n\t.section\t\".note.GNU-stack\",\"\",@progbits\n\t.addrsig\n```\n\nTest\n\n| \u002F    | matrix |\n| ---- | ------ |\n| test | 1      |\n\n\u003E There are no accidents\n\n-- Master Oogway\n",categories:["english","testing"],createdOn:new Date(1672830580000),updatedOn:new Date(1676896642000)},uses:{params:["slug"]}}],
