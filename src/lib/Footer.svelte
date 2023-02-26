@@ -63,11 +63,14 @@
     </div>
 
     <div class="absolute inset-x-0 bottom-0 mb-5 text-center">
-        <span
-            class="select-none font-heading
-            font-bold text-neutral-600"
-        >
-            NTUT CINC © 2023
-        </span>
+        <div class="select-none font-heading text-neutral-600">
+            <p class="font-bold">NTUT CINC © 2023</p>
+
+            <p>
+                Made with <a href="https://kit.svelte.dev">SvelteKit</a>,
+                <a href="https://tailwindcss.com">TailwindCSS</a>, and
+                <a href="https://fontawesome.com">Font Awesome</a>
+            </p>
+        </div>
     </div>
 </footer>
